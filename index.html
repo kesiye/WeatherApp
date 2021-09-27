@@ -23,27 +23,24 @@
 
 <body>
 
-    <!-- Search Bar & Search Button -->
+
     <div class="card">
 
-        <div class="app-title">WeatherAPP</div>
+        <h1 class="app-title">WeatherAPP
 
-        <!-- searchfield -->
+        </h1>
 
-            <form class="search">
-                <input 
-                type="text" 
-                name="city" 
-                placeholder="search city" 
-                autocomplete="off"
-                />
-            </form>
-    
-            
-            
-        <!-- button -->
+        <div class="snb">
         
-            <button class="click-button" type="submit"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
+            <div class = "search-field">
+                <form class="search">
+                <input type="text" name="city" placeholder="search city" autocomplete="off"/>
+                </form>
+            </div>
+            
+        
+            <div class="search-button">
+                <button class="click-button" type="submit"><svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24"
                     height="2.5em" width="2.5em" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M8.55024 10.5503C8.55024 11.1026 8.10253 11.5503 7.55024 11.5503C6.99796 11.5503 6.55024 11.1026 6.55024 10.5503C6.55024 9.99801 6.99796 9.55029 7.55024 9.55029C8.10253 9.55029 8.55024 9.99801 8.55024 10.5503Z"
@@ -56,12 +53,13 @@
                         fill="currentColor"></path>
                     <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M16.2071 4.89344C19.0922 7.7786 19.313 12.3192 16.8693 15.4577C16.8846 15.4712 16.8996 15.4853 16.9142 15.4999L21.1568 19.7426C21.5473 20.1331 21.5473 20.7663 21.1568 21.1568C20.7663 21.5473 20.1331 21.5473 19.7426 21.1568L15.5 16.9141C15.4853 16.8995 15.4713 16.8846 15.4578 16.8693C12.3193 19.3131 7.77858 19.0923 4.89338 16.2071C1.76918 13.083 1.76918 8.01763 4.89338 4.89344C8.01757 1.76924 13.0829 1.76924 16.2071 4.89344ZM6.30759 14.7929C8.65074 17.1361 12.4497 17.1361 14.7929 14.7929C17.136 12.4498 17.136 8.6508 14.7929 6.30765C12.4497 3.96451 8.65074 3.96451 6.30759 6.30765C3.96445 8.6508 3.96445 12.4498 6.30759 14.7929Z"
-                        fill="currentColor"></path>
-                </svg></button>
-       
-    
+                        fill="currentColor"></path></svg>
+                </button>
+            </div>
 
-         <!-- Weather Card -->
+        </div> 
+    
+        
         <div class="weather-card">
             <h2 class="city-name"></h2>
             <h1 class="temp"></h1>
@@ -71,27 +69,16 @@
             <div class="wind"></div>
         </div>
 
-        <!-- Base card data -->
-        <!-- <div class="weather-card">
-            <h2 class="city-name">Weather in ~</h2>
-            <h1 class="temp">~°C</h1>
-            <img src="" alt="" class="icon">
-            <div class="description">~</div>
-            <div class="humidity">Humidity: ~%</div>
-            <div class="wind">Wind Speed: ~km/h</div>
-        </div> -->
+        
 
-
-                <div class="github">
-                    <a href="https://github.com/kesiye" target="blank"><img src="images/github.png" alt=""></a>
-                </div>
+        <div class="github">
+            <a href="https://github.com/kesiye" target="blank"><img src="images/github.png" alt=""></a>
+        </div>
 
     </div>
 
-    <!-- Link for the JavaScript located in the same folder as the HTML & CSS -->
-    <!-- <script src="./script.js" defer></script> -->
-    <script src="./app.js" defer></script>
 
+    <script src="./app.js" defer></script>
 </body>
 
 </html>
